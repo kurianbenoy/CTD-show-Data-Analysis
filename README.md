@@ -15,6 +15,7 @@ Final LB will be published on the 1 year anniversary of the Podcast.
 - Insights: Are the insights relevant, useful, and actionable?
 - Innovation: How novel and creative are the ideas and approaches?
 
+## My Analysis
 
 My Exploration should focus mainly on things:
 
