@@ -15,7 +15,7 @@ Final LB will be published on the 1 year anniversary of the Podcast.
 - Insights: Are the insights relevant, useful, and actionable?
 - Innovation: How novel and creative are the ideas and approaches?
 
-## My Analysis
+## My Analysis 
 
 My Exploration should focus mainly on things:
 
@@ -27,7 +27,7 @@ My Exploration should focus mainly on things:
 ## Analysing Youtube video performance
 
 TODO: => 
-
+(https://www.kaggle.com/kurianbenoy/analysing-chai-time-data-views-and-reach/)
 - Do story telling
 - Write summary with important insights
 - Do an analysis of 
