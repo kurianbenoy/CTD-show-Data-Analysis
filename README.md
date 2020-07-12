@@ -38,3 +38,16 @@ TODO: =>
 
 - most recorded day(10 eps)
 - most frequently asked questions
+
+## Things to do
+
+- [X] Donut chart of Chai of Sanyam
+- [ ] common filler words
+- [ ] across episodes(analysis)
+- [ ] Repeated questions
+- [ ] TIming of episodes with heroes time duration
+- [ ] Lex Fredman comparisson
+
+<div class=h3> Summary</div>
+- ajfdlasdjlfk
+- lfadksjklasjfd
