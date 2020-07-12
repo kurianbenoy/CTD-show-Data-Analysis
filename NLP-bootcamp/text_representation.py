@@ -44,3 +44,6 @@ normalize_corpus = np.vectorize(normalize_document)
 norm_corpus = normalize_corpus(corpus)
 print(norm_corpus)
 
+text_csv = pd.read_csv('../input/Cleaned Subtitles/E1.csv')
+
+norm_text = normalize_corpus(text_csv)
