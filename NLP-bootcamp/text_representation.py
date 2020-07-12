@@ -3,6 +3,7 @@ import numpy as np
 import nltk
 import re
 
+from sklearn.feature_extraction.text import CountVectorizer
 
 nltk.download('stopwords')
 nltk.download('punkt')
@@ -43,6 +44,15 @@ normalize_corpus = np.vectorize(normalize_document)
 
 norm_corpus = normalize_corpus(corpus)
 print(norm_corpus)
+
+cv = CountVectorizer(min_df=0., max_df=1.)
+cv_matrix = cv.fit_transform(norm_corpus)
+cv_matrix = cv_matrix.toarray()
+
+vocab = cv.get_feature_names()
+cv_pandas = pd.DataFrame(cv_matrix, columns=vocab)
+
+print(cv_pandas)
 
 text_csv = pd.read_csv('../input/Cleaned Subtitles/E1.csv')
 
