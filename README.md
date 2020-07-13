@@ -46,7 +46,16 @@ TODO: =>
 - [ ] across episodes(analysis)
 - [ ] Repeated questions
 - [ ] TIming of episodes with heroes time duration
-- [ ] Lex Fredman comparisson
+- [ ] Lex Fredman comparisson, comparing his structure.
+
+**Making a proper presenttation**
+
+- Wishing Sanyam's birtday
+- Look at the word count of his most liked, avg watch duration views and description of videos
+- social profile of sanyam, then make a comparision of LEx's podcast and other reach
+- Do episode analysis ...
+- Explore the question whether Sanyam has a Kaggle bias?
+- Kaggle journey of Sanyam
 
 <div class=h3> Summary</div>
 - ajfdlasdjlfk
