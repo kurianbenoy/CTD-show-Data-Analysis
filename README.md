@@ -23,6 +23,12 @@ My Exploration should focus mainly on things:
 - Understanding more about Sanyanam
 - Influence of Kaggle on CTDS(use kaggle dataset)
 
+**Analyse future growth of CTDS channel**
+
+- predict future growth of youtube views, when will it reach 100K views
+- 5K subscribers
+- future things
+
 
 ## Analysing Youtube video performance
 
