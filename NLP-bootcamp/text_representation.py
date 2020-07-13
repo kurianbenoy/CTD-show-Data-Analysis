@@ -3,8 +3,9 @@ import numpy as np
 import nltk
 import re
 
-from sklearn.feature_extraction.text import CountVectorizer
-
+from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
+from sklearn.cluster import KMeans
+from sklearn.metrics.pairwise import cosine_similarity
 nltk.download('stopwords')
 nltk.download('punkt')
 
@@ -53,6 +54,22 @@ vocab = cv.get_feature_names()
 cv_pandas = pd.DataFrame(cv_matrix, columns=vocab)
 
 print(cv_pandas)
+
+
+tv = TfidfVectorizer(min_df=0., max_df=1., use_idf=True)
+tv_matrix = tv.fit_transform(norm_corpus)
+tv_matrix = tv_matrix.toarray()
+
+vocab = tv.get_feature_names()
+print(pd.DataFrame(np.round(tv_matrix, 2), columns=vocab))
+
+similarity_matrix = cosine_similarity(tv_matrix)
+similarity_df = pd.DataFrame(similarity_matrix)
+km = KMeans(n_clusters=3, random_state=0)
+km.fit_transform(similarity_matrix)
+cluster_labels = km.labels_
+cluster_labels = pd.DataFrame(cluster_labels, columns=['ClusterLabel'])
+print(pd.concat([corpus_df, cluster_labels], axis=1))
 
 text_csv = pd.read_csv('../input/Cleaned Subtitles/E1.csv')
 
