@@ -46,7 +46,7 @@ TODO: =>
 - [ ] across episodes(analysis)
 - [ ] Repeated questions
 - [ ] TIming of episodes with heroes time duration
-- [ ] Lex Fredman comparisson, comparing his structure.
+- [X] Lex Fredman comparisson, comparing his structure.
 
 **Making a proper presenttation**
 
